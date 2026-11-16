@@ -37,12 +37,12 @@ const CAVE: [[u32; 3]; 20] = [
     [13, 16, 19],
 ];
 
-// TODO (student): recursive. True if `target` appears in `values`.
+// TODO: recursive. True if `target` appears in `values`.
 pub fn contains(_values: &[u32], _target: u32) -> bool {
     todo!("Implement contains")
 }
 
-// TODO (student): recursive. True if no value appears twice in `values`. Use `contains`.
+// TODO: recursive. True if no value appears twice in `values`. Use `contains`.
 pub fn all_distinct(_values: &[u32]) -> bool {
     todo!("Implement all_distinct")
 }
@@ -215,7 +215,7 @@ mod tests {
         }
     }
 
-    // TODO (student): at least three tests of your own:
+    // TODO: at least three tests of your own:
     //   one for `contains` (include the empty list),
     //   one for `all_distinct` (a list with a repeat and a list without),
     //   one for `exits` on a known room.
